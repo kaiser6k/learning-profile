@@ -1,0 +1,15 @@
+{
+  "skill": "learning-profile",
+  "test_cases": [
+    {"input": "Can you explain subnetting to me?", "should_trigger": true},
+    {"input": "Help me understand this homework question", "should_trigger": true},
+    {"input": "What is the answer to this policy topic?", "should_trigger": true},
+    {"input": "Write a step by step for resetting a password in Active Directory", "should_trigger": true},
+    {"input": "I have ADHD and I cannot start this assignment", "should_trigger": true},
+    {"input": "Draft my IEP accommodation note for class", "should_trigger": true},
+    {"input": "What should we put on my child's 504 plan?", "should_trigger": true},
+    {"input": "Does a 504 plan follow you to college?", "should_trigger": true},
+    {"input": "Design a Facebook banner for a sale", "should_trigger": false},
+    {"input": "What's the weather in Tampa tomorrow?", "should_trigger": false}
+  ]
+}

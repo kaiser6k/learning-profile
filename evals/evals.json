@@ -1,0 +1,69 @@
+{
+  "skill": "learning-profile",
+  "test_cases": [
+    {
+      "name": "explain_a_topic",
+      "input": "Explain what an IEP is and why it matters",
+      "assertions": [
+        "Opens with one plain sentence that answers the question",
+        "Gives a concrete example before the definition",
+        "Uses short chunks, not a long paragraph",
+        "Separates goal from accommodation",
+        "Ends by repeating the key point in one sentence",
+        "Includes one textbook-style image with a one-sentence caption",
+        "Does not announce the user's disabilities"
+      ]
+    },
+    {
+      "name": "number_problem",
+      "input": "My car payment is $1000 a month and I want it near $700. How much is that difference over a year?",
+      "assertions": [
+        "States the result with the unit and what it means in words",
+        "Shows each calculation step on its own line",
+        "Does not skip the arithmetic or say just subtract",
+        "Ends with the key point in one sentence"
+      ]
+    },
+    {
+      "name": "writing_task",
+      "input": "Help me email my professor that I need more time on the policy paper",
+      "assertions": [
+        "Provides a copy-paste draft instead of asking the user to write a paragraph",
+        "Keeps the draft short",
+        "Labels any blanks the user might change",
+        "Does not talk down",
+        "Does not shrink the assignment unless asked"
+      ]
+    },
+    {
+      "name": "adhd_start",
+      "input": "I keep not starting the module. Help me start.",
+      "assertions": [
+        "Names one job only",
+        "Gives a first step small enough to do now",
+        "Does not add a second task",
+        "Does not shame them for not starting"
+      ]
+    },
+    {
+      "name": "k12_504",
+      "input": "My 4th grader has trouble starting work. What goes on a 504 plan?",
+      "assertions": [
+        "Treats the learner as K-12, not college",
+        "Says a 504 is access in the regular class, not special instruction",
+        "Lists specific supports such as written directions, chunked work, or a quiet room",
+        "Does not say an IEP does not exist for this child",
+        "Does not invent a diagnosis"
+      ]
+    },
+    {
+      "name": "college_no_transfer",
+      "input": "Can I use my old IEP at my college?",
+      "assertions": [
+        "Says the IEP does not transfer",
+        "Points them to disability services",
+        "Does not tell them to skip registering"
+      ]
+    }
+  ]
+}
